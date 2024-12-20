@@ -77,7 +77,7 @@ import matplotlib.pyplot as plt
 
 def load_xvg(filename):
     x, y = [], []
-    with open(filename, 'r') as file:
+    with open('2dproj_ev_1_2.xvg', 'r') as file:
         for line in file:
             if line.startswith(('#', '@')):  # Ignore comments and headers
                 continue
